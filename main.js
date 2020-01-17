@@ -1,37 +1,3 @@
-SC.initialize({
-  client_id: '340f063c670272fac27cfa67bffcafc4'
-});
-
-$(document).ready(function() {
-  SC.stream('/tracks/271004119',function(sound){
-    $('#start').click(function(e) {
-           e.preventDefault();
-           sound.start();
-         });
-    $('#stop').click(function(e) {
-           e.preventDefault();
-           sound.stop();
-        });
-  });
-});
-
-<!--titanic theme song-->
-SC.initialize({
-  client_id: '340f063c670272fac27cfa67bffcafc4'
-});
-$(document).ready(function() {
-   SC.stream('/tracks/201507857',function(sound){
-     $('#start1').click(function(e) {
-           e.preventDefault();
-           sound.start();
-         });
-         $('#stop1').click(function(e) {
-           e.preventDefault();
-           sound.stop();
-         });
-   });
-});
-
 <!--padi padi leechu manasu-->
 SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
@@ -66,40 +32,6 @@ $(document).ready(function() {
    });
 });
 
-<!--taki taki-->
-SC.initialize({
-  client_id: '340f063c670272fac27cfa67bffcafc4'
-});
-$(document).ready(function() {
-   SC.stream('/tracks/512660685',function(sound){
-     $('#start4').click(function(e) {
-           e.preventDefault();
-           sound.start();
-         });
-         $('#stop4').click(function(e) {
-           e.preventDefault();
-           sound.stop();
-         });
-   });
-});
-
-<!--dumb dumb-->
-SC.initialize({
-  client_id: '340f063c670272fac27cfa67bffcafc4'
-});
-$(document).ready(function() {
-   SC.stream('/tracks/379584962',function(sound){
-     $('#start5').click(function(e) {
-           e.preventDefault();
-           sound.start();
-         });
-         $('#stop5').click(function(e) {
-           e.preventDefault();
-           sound.stop();
-         });
-   });
-});
-
 <!--maruvarthai-->
 SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
@@ -124,11 +56,11 @@ SC.initialize({
 });
 $(document).ready(function() {
    SC.stream('/tracks/522633336',function(sound){
-     $('#start').click(function(e) {
+     $('#start7').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-         $('#stop').click(function(e) {
+         $('#stop7').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
@@ -142,11 +74,11 @@ SC.initialize({
 });
 $(document).ready(function() {
    SC.stream('/tracks/705912043',function(sound){
-     $('#start').click(function(e) {
+     $('#start8').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-         $('#stop').click(function(e) {
+         $('#stop8').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
@@ -160,11 +92,11 @@ SC.initialize({
 });
 $(document).ready(function() {
    SC.stream('/tracks/476606349',function(sound){
-     $('#start').click(function(e) {
+     $('#start9').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-         $('#stop').click(function(e) {
+         $('#stop9').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
@@ -178,11 +110,11 @@ SC.initialize({
 });
 $(document).ready(function() {
    SC.stream('/tracks/717280654',function(sound){
-     $('#start').click(function(e) {
+     $('#start10').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-         $('#stop').click(function(e) {
+         $('#stop10').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
@@ -196,11 +128,11 @@ SC.initialize({
 });
 $(document).ready(function() {
    SC.stream('/tracks/665105183',function(sound){
-     $('#start').click(function(e) {
+     $('#start11').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-         $('#stop').click(function(e) {
+         $('#stop11').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
@@ -214,11 +146,155 @@ SC.initialize({
 });
 $(document).ready(function() {
    SC.stream('/tracks/671766368',function(sound){
-     $('#start').click(function(e) {
+     $('#start12').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-         $('#stop').click(function(e) {
+         $('#stop12').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--koppamga koppamga-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/576655332',function(sound){
+     $('#start14').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop14').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--singapenne-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/652012811',function(sound){
+     $('#start15').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop15').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--chaana mereya-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/381403250',function(sound){
+     $('#start16').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop16').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--dheeme dheeme-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/639102636',function(sound){
+     $('#start17').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop17').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--dilliwali girlfriend-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/205723237',function(sound){
+     $('#start19').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop19').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--sareeka falsa-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/123676319',function(sound){
+     $('#start20').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop20').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--Kabhi Kabhi Aditi Zindagi-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/110995620',function(sound){
+     $('#start21').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop21').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--palat-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/138079309',function(sound){
+     $('#start22').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop22').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
