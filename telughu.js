@@ -84,3 +84,21 @@ $(document).ready(function() {
          });
    });
 });
+
+
+<!--butta bomma-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/742634620',function(sound){
+     $('#start24').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop24').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
