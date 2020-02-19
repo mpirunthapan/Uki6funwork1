@@ -34,24 +34,6 @@ $(document).ready(function() {
 });
 
 
-<!--dumb dumb-->
-SC.initialize({
-  client_id: '340f063c670272fac27cfa67bffcafc4'
-});
-$(document).ready(function() {
-   SC.stream('/tracks/379584962',function(sound){
-     $('#start5').click(function(e) {
-           e.preventDefault();
-           sound.start();
-         });
-         $('#stop5').click(function(e) {
-           e.preventDefault();
-           sound.stop();
-         });
-   });
-});
-
-
 <!--gasolina-->
 SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
@@ -100,6 +82,43 @@ $(document).ready(function() {
            sound.start();
          });
          $('#stop23').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+
+<!--Tebey-insomnia-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/33299240',function(sound){
+     $('#start25').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop25').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+         });
+   });
+});
+
+
+<!--Ignite-->
+SC.initialize({
+  client_id: '340f063c670272fac27cfa67bffcafc4'
+});
+$(document).ready(function() {
+   SC.stream('/tracks/316547873',function(sound){
+     $('#start34').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+         $('#stop34').click(function(e) {
            e.preventDefault();
            sound.stop();
          });
